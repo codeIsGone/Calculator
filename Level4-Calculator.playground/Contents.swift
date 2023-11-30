@@ -52,7 +52,7 @@ class DivideOperation: AbstractOperation {
 }
 
 //상위 클래스의 인스턴스 생성, 생성자를 통해 하위 클래스 인스턴스로 상위 클래스 프로퍼티 초기화
-//상위 인스턴스 -> 상위 메서드 -> 추상 계층(상위 프로퍼티 -> 하위 인스턴스) -> 하위 클래스의 메서드
+//상위 인스턴스 -> 상위 메서드 -> 추상 계층(상위 프로퍼티 -> 하위 인스턴스) -> 하위 메서드
 let calculator = Calculator(operatorr: AddOperation())
 let addResult = calculator.calculate(firstNumber: 1, secondNumber: 1)
 
